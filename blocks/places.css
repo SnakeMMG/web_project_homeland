@@ -1,0 +1,126 @@
+.colegas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.colegas__card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colegas__card {
+  width: 73%;
+  display: flex;
+  grid-gap: 25px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 100vh;
+}
+.colegas__card_margin {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.card__title_margin {
+  margin-top: 0;
+  width: 50%;
+}
+
+.card__image {
+  width: 50%;
+}
+
+.card__artista-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 50%;
+}
+
+.card__artista_margin {
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.card__artista-name_margin {
+  margin: 0;
+}
+
+.card__paragraph {
+  line-height: 29.34px;
+  font-size: 18px;
+  width: 50%;
+}
+
+.card__paragraph_margin {
+}
+
+.card__botton {
+  height: 3em;
+  width: 35%;
+  background-color: #0278fe;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.card__botton_margin {
+  margin-top: 7%;
+}
+
+@media (max-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
+
+  /* .colegas__card {
+    width: 95%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .card__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card__right {
+    width: 50%;
+  }
+
+  .card__botton {
+    width: 100%;
+  }
+
+  .card__botton_margin {
+    margin-top: 15%;
+  }
+
+  .card__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .card__image {
+    width: 90%;
+  }
+ */
+}

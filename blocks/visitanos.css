@@ -1,0 +1,113 @@
+.visitanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.visitanos__bkr-image {
+  background-image: url(../images/visitanos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visitanos__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.visitanos__title {
+  text-align: center;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.visitanos__title_margin {
+  margin-bottom: 10%;
+}
+
+.visitanos__parram {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.visitanos__parram_margin {
+  margin: 0;
+}
+
+.visitanos__botton {
+  width: 65%;
+  height: 3em;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21.78px;
+  background-color: #0278fe;
+  color: #fff;
+}
+
+.visitanos__botton_margin {
+  margin-top: 10%;
+}
+
+.visitanos__footer_margin {
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .visitanos__bkr-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .lugares__images-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 5%;
+  }
+
+  .lugares__reflexion {
+    width: 100%;
+    font-size: 3em;
+    line-height: 60px;
+  }
+
+  .colegas__card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .card__left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card__right {
+    width: 100%;
+  }
+
+  .card__title {
+  }
+
+  .card__artista-container {
+  }
+
+  .card__image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.places {
+  display: flex;
+  row-gap: 40px;
+  flex-direction: column;
+  width: 987px;
+  margin: 0 auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 460px auto;
+  grid-template-rows: 152px 460px auto;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+    "title website"
+    "image paragraphs"
+    "button paragraphs";
+}
+
+.card__title {
+  grid-area: title;
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.card__title_large {
+  width: 584px;
+}
+
+.card__website {
+  grid-area: website;
+}
+
+.card__image {
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__button {
+  grid-area: button;
+}
+
+.card__paragraphs {
+  grid-area: paragraphs;
+}

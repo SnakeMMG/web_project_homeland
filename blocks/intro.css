@@ -1,0 +1,277 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__text-container {
+  width: 1017px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__text-container_margin {
+  margin-top: 92px;
+}
+
+.intro__title {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.intro__reflexion_container {
+  display: flex;
+  width: 722px;
+  height: 136px;
+  flex-direction: column;
+}
+
+.intro__reflexion-container_margin {
+  margin-top: 40px;
+  margin-bottom: 92px;
+}
+
+.intro__reflexion {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  width: 100%;
+}
+
+.intro__reflexion_margin {
+  margin: 0;
+}
+
+.intro__reflexion-autor {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+
+.intro__reflexion-autor_margin {
+  margin: 0;
+}
+
+.intro__paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  width: 722px;
+  height: 182px;
+  margin: 0;
+}
+
+.intro__paragraph_margin {
+  margin: 0;
+}
+
+.intro__images-container {
+  display: grid;
+
+  width: 1184px;
+  height: 442px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.intro__images-container_margin {
+  margin-top: 92px;
+}
+
+.intro__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .intro__text-container {
+    width: 720px;
+    height: auto;
+  }
+
+  .intro__text-container_margin {
+    margin-top: 55px;
+  }
+
+  .intro__title {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .intro__title_margin {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .intro__reflexion_container {
+    width: 100%px;
+    height: 136px;
+  }
+
+  .intro__reflexion-container_margin {
+    margin: 0;
+    margin-bottom: 42px;
+  }
+
+  .intro__reflexion {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+
+    width: 100%;
+  }
+
+  .intro__reflexion_margin {
+    margin: 0;
+  }
+
+  .intro__reflexion-autor {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+
+  .intro__reflexion-autor_margin {
+    margin: 0;
+  }
+
+  .intro__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+
+    width: 722px;
+    height: 182px;
+    margin: 0;
+  }
+
+  .intro__paragraph_margin {
+    margin: 0;
+  }
+
+  .intro__images-container {
+    width: 720px;
+    height: 1104px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
+
+  .intro__images-container_margin {
+    margin-top: 64px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__text-container {
+    width: 320px;
+    height: auto;
+  }
+
+  .intro__text-container_margin {
+    margin-top: 44px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+
+    width: 100%;
+  }
+
+  .intro__title_margin {
+    margin: 0;
+    margin-bottom: 9px;
+  }
+
+  .intro__reflexion_container {
+    width: 288px;
+    height: auto;
+  }
+
+  .intro__reflexion-container_margin {
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+  .intro__reflexion {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+
+    width: 100%;
+  }
+
+  .intro__reflexion_margin {
+    margin: 0;
+  }
+
+  .intro__reflexion-autor {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+
+  .intro__reflexion-autor_margin {
+    margin: 0;
+  }
+
+  .intro__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+
+    width: 288px;
+    height: 442px;
+    margin: 0;
+  }
+
+  .intro__paragraph_margin {
+    margin: 0;
+  }
+
+  .intro__images-container {
+    width: 720px;
+    height: 1104px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
+
+  .intro__images-container_margin {
+    margin-top: 64px;
+  }
+
+  .intro__images-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 12px;
+    width: 288px;
+    height: 216px;
+  }
+
+  .intro__images-container_margin {
+    margin-top: 38px;
+  }
+}
