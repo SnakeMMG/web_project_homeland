@@ -95,7 +95,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 900px) {
   .intro__text-container {
     width: 720px;
     height: auto;
@@ -178,7 +178,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 450px) {
   .intro {
     justify-content: start;
     height: 2855px;

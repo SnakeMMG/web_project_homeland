@@ -94,7 +94,7 @@
   margin-top: 24px;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 900px) {
   .footer__bkr-image {
     width: 100%;
     height: 746px;
@@ -124,7 +124,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 450px) {
   .footer__bkr-image {
     width: 320px;
     height: 254px;
