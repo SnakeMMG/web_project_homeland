@@ -7,6 +7,8 @@
 }
 
 .card {
+  width: 984px;
+  height: 756px;
   display: grid;
   grid-template-columns: 460px auto;
   grid-template-rows: 152px 460px auto;
