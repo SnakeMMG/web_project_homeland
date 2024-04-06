@@ -119,7 +119,7 @@
   }
 
   .intro__reflexion_container {
-    width: 100%px;
+    width: 100%;
     height: 136px;
   }
 
@@ -190,6 +190,7 @@
 
   .intro__text-container_margin {
     margin-top: 44px;
+    margin-bottom: 38px;
   }
 
   .intro__title {
@@ -264,7 +265,6 @@
   }
 
   .intro__images-container {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 12px;
@@ -273,6 +273,6 @@
   }
 
   .intro__images-container_margin {
-    margin-top: 38px;
+    margin: 0;
   }
 }
