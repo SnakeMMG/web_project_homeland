@@ -253,20 +253,8 @@
   }
 
   .intro__images-container {
-    width: 720px;
-    height: 1104px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 16px;
-  }
-
-  .intro__images-container_margin {
-    margin-top: 64px;
-  }
-
-  .intro__images-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     row-gap: 12px;
     width: 288px;
     height: 216px;
